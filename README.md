@@ -3,7 +3,7 @@
 ## 传参
 ### init: {
 	wrap: el, 滑动区域
-	//scroll: el, 移动的元素 (一般移动的元素wrap.chilren[0])
+	scroll: el, 移动的元素 (一般移动的元素wrap.chilren[0])
 	[dir:('x'|'y')] dir 滑动方向默认为Y默认y
 	over: "ease","backOut","none" 超出之后，需要怎么处理(ease：平滑回来，backOut：回弹，none:不允许超出)
 	showBar: (true||false) 是否显示滚动条,默认值为true
