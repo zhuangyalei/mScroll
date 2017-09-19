@@ -1,7 +1,12 @@
-# mScroll  移动端 滑动回弹事件封装
+# mScroll  
+## 介绍
+
+- 根据移动端原生touch事件封装，滑屏滚动组件，利用css中transform提高性能
 
 ## 传参
-### init: {
+
+``` 
+init: {
 	wrap: el, 滑动区域
 	scroll: el, 移动的元素 (一般移动的元素wrap.chilren[0])
 	[dir:('x'|'y')] dir 滑动方向默认为Y默认y
@@ -12,4 +17,4 @@
 	up: fn 抬起时的回调
 	end: fn 动画结束时的回调 
 }
-
+```
